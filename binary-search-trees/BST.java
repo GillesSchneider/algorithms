@@ -137,7 +137,7 @@ public class BST {
 			return true;
 		}
 		
-		if ((getKeyInt(root.left) < root.key && getKeyInt(root.right) > root.key) && isValid(root.left) && isValid(root.right))
+		if ((getKeyInt(root.left) < root.key && getKeyInt(root.right) >= root.key) && isValid(root.left) && isValid(root.right))
 		{
 			return true;
 		}
