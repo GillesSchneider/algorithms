@@ -31,29 +31,29 @@ public class MyClass()
 - Insert node by its key
 
 ```sh
-public Node insert(int key, Node root): returns Node
+public Node insert(int key, Node root)
 ```
 - Remove node by its key
  ```sh
-public Node remove(int key, Node root): returns Node
+public Node remove(int key, Node root) 
 ```
 - Find node by its key
  ```sh
-piblic void find(int key, Node root): returns Node or null
+piblic void find(int key, Node root)
 ```
 - Check if a tree is a valid BST
  ```sh
-public boolean isValid(Node root): returns True or False
+public boolean isValid(Node root)
 ```
 - Pre-order traversal
  ```sh
-public void preOrder(Node root): void
+public void preOrder(Node root)
 ```
 - Post-order traversal
  ```sh
-public void postOrder(Node root): void
+public void postOrder(Node root)
 ```
 - In-order traversal
  ```sh
-public void inOrder(Node root): void
+public void inOrder(Node root)
 ```
