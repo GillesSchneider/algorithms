@@ -1,5 +1,5 @@
 # Binary Search Trees
-> Useful methods
+> Useful methods/classes for Binary Search Tree (BST)
 
 ## Node Class
 
