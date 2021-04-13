@@ -4,6 +4,27 @@
 ## Node Class
 
 ## BST Class
+### Example
+
+```sh
+public class MyClass()
+{
+    public static void main(String args[])
+    {
+        BST tree = new BST();
+        int[] values = new int[] {10, 20, 50, 2, 40};
+        for (int v: values)
+        {
+             tree.root = tree.insert(v, tree.root)
+        }
+        
+        tree.root = tree.remove(values[0], tree.root)
+        tree.preOrder(tree.root)
+        ...
+        
+    }
+}
+```
 
 ### Methods
 
