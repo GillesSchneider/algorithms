@@ -1,2 +1,3 @@
-# algorithms
-Algorithm Zoo
+# Algorithms
+
+1. 🌲 [Binary Search Tree](/binary-search-tree)
