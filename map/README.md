@@ -29,7 +29,6 @@ public class Main {
 		System.out.println(map);
 		map.remove(1);
 		System.out.println(map);
-		map.remove(2);
         ...
 	}
 }
