@@ -1,7 +1,7 @@
 # Hashmap
 > Useful methods
 
-## Single Linked List
+## Simple List-Based Map
 ### Example
 
 ```sh
