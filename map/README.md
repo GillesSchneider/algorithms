@@ -1,5 +1,4 @@
 # Map
-> Useful methods
 
 ## Single Double Linked Map
 > [SimpleDoubleLinkedListMap](/SimpleDoubleLinkedListMap)
