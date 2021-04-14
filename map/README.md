@@ -1,5 +1,5 @@
 # Map
-- [Single Double Linked Map](#singledoublelinkedmap)
+- [Simple Double Linked Map](#simpledoublelinkedmap)
 ## Single Double Linked Map
 > [SimpleDoubleLinkedListMap](./SimpleDoubleLinkedListMap.java)
 
