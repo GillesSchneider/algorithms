@@ -162,16 +162,12 @@ public class SimpleDoubleLinkedListMap
 		
 		else //Node not in the list
 		{
-			Node current = header; //Start at the header
-			
-			while (current.next != null) //Find the trailer
-			{
-				current = current.next;
-			}
-			
+			Node current = header;
 			Node newNode = new Node(key, value);
-			newNode.prev = current;
-			current.next = newNode; //The previous trailer points to the new trailer
+			newNode.next = current;
+			current.prev = newNode;
+			header = newNode;
+			header.prev = null;
 			n ++; //Increment the number of entries
 			return null;
 		}
