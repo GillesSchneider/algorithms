@@ -15,20 +15,6 @@ public class MyClass()
 }
 ```
 
-## Double Linked List
-### Example
-
-```sh
-public class MyClass()
-{
-    public static void main(String args[])
-    {
-        ...
-        
-    }
-}
-```
-
 ### Methods
 
 - 
