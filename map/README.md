@@ -38,9 +38,9 @@ public class Main {
 Output:
 
 ```sh
-header: (prev: null, key: 0, value: 2, next: 1) <=> (prev: 0, key: 1, value: 3, next: 2) <=> (prev: 1, key: 2, value: 45, next: 4) <=> (prev: 2, key: 4, value: 231, next: null) :trailer
-header: (prev: null, key: 1, value: 3, next: 2) <=> (prev: 1, key: 2, value: 45, next: 4) <=> (prev: 2, key: 4, value: 231, next: null) :trailer
-header: (prev: null, key: 1, value: 3, next: 4) <=> (prev: 1, key: 4, value: 231, next: null) :trailer
+header: (prev: null, key: 4, value: 231, next: 2) <=> (prev: 4, key: 2, value: 45, next: 1) <=> (prev: 2, key: 1, value: 3, next: 0) <=> (prev: 1, key: 0, value: 2, next: null) :trailer
+header: (prev: null, key: 4, value: 231, next: 2) <=> (prev: 4, key: 2, value: 45, next: 1) <=> (prev: 2, key: 1, value: 3, next: null) :trailer
+header: (prev: null, key: 4, value: 231, next: 1) <=> (prev: 4, key: 1, value: 3, next: null) :trailer
 header: (prev: null, key: 1, value: 3, next: null) :trailer
 null
 ...
@@ -53,7 +53,7 @@ null
 ```sh
 get(int key)
 ```
-- Insert(k, v): insert Node(k, v) into the map M; if node with key k is already in M, replace the value with v and return old node; else, add the new node to the end of the list and return null; _note that adding the new node to the beginning of the list is more efficient than the following method (no need to traverse the chain to reach the trailer). Keeping track of the trailer node of the list could solve the problem too;_
+- Insert(k, v): insert Node(k, v) into the map M; if node with key k is already in M, replace the value with v and return old node; else, add the new node to the beginning of the list and return null; 
  ```sh
  insert(int key, int value)
 ```
