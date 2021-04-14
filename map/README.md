@@ -2,8 +2,9 @@
 > Useful methods
 
 ## Single Double Linked Map
-> The list in not ordered
 > [SimpleDoubleLinkedListMap](/SimpleDoubleLinkedListMap)
+
+- The list in not ordered
 
 ### Example
 
