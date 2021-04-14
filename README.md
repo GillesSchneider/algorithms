@@ -1,7 +1,10 @@
 # Algorithms
-> My implementations of some famous algorithms/data structures
+> My implementations of some famous algorithms
+
+
+# Data Structures
+> My implementations of some famous data structures
 - [Binary Search Trees](/binary-search-trees)
 - [Graphs](/graphs)
 - [Map](/map)
 - [Trees](/trees)
-
