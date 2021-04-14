@@ -2,6 +2,9 @@
 > Useful methods
 
 ## Single Double Linked Map
+> The list in not ordered
+> [SimpleDoubleLinkedListMap](/SimpleDoubleLinkedListMap)
+
 ### Example
 
 ```sh
@@ -33,6 +36,15 @@ public class Main {
 ```
 
 Output:
+
+```sh
+header: (prev: null, key: 0, value: 2, next: 1) <=> (prev: 0, key: 1, value: 3, next: 2) <=> (prev: 1, key: 2, value: 45, next: 4) <=> (prev: 2, key: 4, value: 231, next: null) :trailer
+header: (prev: null, key: 1, value: 3, next: 2) <=> (prev: 1, key: 2, value: 45, next: 4) <=> (prev: 2, key: 4, value: 231, next: null) :trailer
+header: (prev: null, key: 1, value: 3, next: 4) <=> (prev: 1, key: 4, value: 231, next: null) :trailer
+header: (prev: null, key: 1, value: 3, next: null) :trailer
+null
+...
+```
 
 
 ### Methods
