@@ -1,7 +1,7 @@
 # Map
 
 ## Single Double Linked Map
-> [SimpleDoubleLinkedListMap](/SimpleDoubleLinkedListMap)
+> [SimpleDoubleLinkedListMap](/SimpleDoubleLinkedListMap.java)
 
 - The list in not ordered
 
