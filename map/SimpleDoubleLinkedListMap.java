@@ -1,4 +1,10 @@
 
+/**
+* Double Linked List Map
+* Free to use
+* @author Gilles Schneider
+*/
+
 class Node
 { 
 	Node next;
