@@ -28,16 +28,16 @@ public class MyClass()
 
 ### Methods
 
-- Insert node by its key
+- Insert node
 
 ```sh
 insert(int key, Node root): returns Node
 ```
-- Remove node by its key
+- Remove node
  ```sh
 remove(int key, Node root): returns Node
 ```
-- Find node by its key
+- Find node
  ```sh
 find(int key, Node root): returns Node or null
 ```
