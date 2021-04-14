@@ -53,7 +53,7 @@ null
 ```sh
 get(int key)
 ```
-- Insert(k, v): insert Node(k, v) into the map M; if node with key k is already in M, replace the value with v and return old node; else, add the new node to the end of the list and return null; note that adding the new node to the beginning of the list is more efficient than the following method (no need to traverse the chain to reach the trailer). Adding a trailer node in the list could solve the problem too; 
+- Insert(k, v): insert Node(k, v) into the map M; if node with key k is already in M, replace the value with v and return old node; else, add the new node to the end of the list and return null; note that adding the new node to the beginning of the list is more efficient than the following method (no need to traverse the chain to reach the trailer). Keeping track of the trailer node of the list could solve the problem too; 
  ```sh
  insert(int key, int value)
 ```
